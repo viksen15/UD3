@@ -1,0 +1,17 @@
+using System;
+
+namespace Ejercicio4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int N = 6;
+            Console.WriteLine(N + 77);
+            Console.WriteLine(N - 3);
+            Console.WriteLine(N * 2);
+
+            Console.ReadKey();
+        }
+    }
+}
