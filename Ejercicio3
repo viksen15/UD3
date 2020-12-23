@@ -1,0 +1,35 @@
+using System;
+
+namespace Ejercicio3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int X = 4;
+            int Y = 7;
+            double N = 6.8;
+            double M = 3.7;
+
+            Console.WriteLine("{0} | {1} | {2} | {3}", X, Y, N, M);
+            Console.WriteLine(X + Y);
+            Console.WriteLine(X - Y);
+            Console.WriteLine(X * Y);
+            Console.WriteLine(X / Y);
+            Console.WriteLine(X % Y);
+            Console.WriteLine(N + M);
+            Console.WriteLine(N - M);
+            Console.WriteLine(N * M);
+            Console.WriteLine(N / M);
+            Console.WriteLine(N % M);
+            Console.WriteLine(X + N);
+            Console.WriteLine(Y / M);
+            Console.WriteLine(Y % M);
+            Console.WriteLine("{0} | {1} | {2} | {3}", X*2, Y*2, N*2, M*2);
+            Console.WriteLine(X + Y + N + M);
+            Console.WriteLine(X * Y * N * M);
+
+            Console.ReadKey();
+        }
+    }
+}
