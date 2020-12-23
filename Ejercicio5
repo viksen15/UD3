@@ -1,0 +1,25 @@
+using System;
+
+namespace Ejercicio5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int A = 4;
+            int B = 6;
+            int C = 2;
+            int D = 8;
+            Console.WriteLine("Valores reales");
+            Console.WriteLine("{0} | {1} | {2} | {3}", A, B, C, D);
+            Console.WriteLine("Valores cambiados");
+            B = C;
+            C = A;
+            A = D;
+            D = B;
+            Console.WriteLine("{0} | {1} | {2} | {3}", A, B, C, D);
+
+            Console.ReadKey();
+        }
+    }
+}
